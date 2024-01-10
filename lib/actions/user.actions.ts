@@ -1,5 +1,7 @@
 'use serser'
 
-export const createUser =async (user) => {
+import { CreateUserParams } from "@/types"
+
+export const createUser =async (user: CreateUserParams) => {
     
 }
