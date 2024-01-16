@@ -161,6 +161,10 @@ body {
   }
 
   /* 18 */
+  .p-bold-18 {
+    @apply text-[18px] font-bold leading-[28px] tracking-[2%];
+  }
+
   .p-semibold-18 {
     @apply text-[18px] font-semibold leading-[28px] tracking-[2%];
   }
