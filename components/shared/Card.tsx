@@ -57,7 +57,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
           </div>
         )}
         <p className="p-medium-16 p-medium-18 text-grey-500">
-          {event.startDateTime && formatDateTime(event.startDateTime).dateOnly}
+          formatDateTime(event.startDateTime).dateOnly
         </p>
         <p className="p-medium-16 md:p-medium-20 line-clamp-2 flex-1 text-black">
           {event.title}
