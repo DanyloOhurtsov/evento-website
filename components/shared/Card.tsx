@@ -38,7 +38,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
               height={20}
             />
           </Link>
-          <DeleteConfirmation eventId={event._id} />
+          {/* <DeleteConfirmation eventId={event._id} /> */}
         </div>
       )}
 
