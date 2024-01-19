@@ -14,7 +14,6 @@ type PaginationProps = {
 const Pagination = ({ urlParamName, page, totalPages }: PaginationProps) => {
     const router = useRouter();
     const searchParams = useSearchParams();
-    console.log(totalPages)
 
     const onClick = (btnType: string) => {
         const pageValue =
