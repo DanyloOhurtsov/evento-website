@@ -112,9 +112,9 @@ const EventDatails = async ({
           emptyTitle="No events found :(("
           emptyStateSubtext="Come back later"
           collectionType="All_Events"
-          limit={6}
+          limit={3}
           page={1}
-          totalPages={2}
+          totalPages={relatedEvents?.totalPages}
         />
       </section>
     </>
