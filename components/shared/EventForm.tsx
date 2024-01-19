@@ -299,7 +299,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
             control={form.control}
             name="price"
             render={({ field }) => (
-              <FormItem className="w-full ">
+              <FormItem className="w-full">
                 <FormControl>
                   <div className="flex-center h-[54px] w-full overflow-hidden rounded-full bg-gray-100 px-4 py-2">
                     <Image
